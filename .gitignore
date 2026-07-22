@@ -1,1 +1,53 @@
-unf/.gitignore
+# Backend (Python)
+
+unf_backend/__pycache__/
+unf_backend/*.py[oc]
+unf_backend/build/
+unf_backend/dist/
+unf_backend/wheels/
+unf_backend/*.egg-info/
+unf_backend/.venv/
+
+
+# Frontend (Expo / React Native)
+
+unf_app/node_modules/
+unf_app/.expo/
+unf_app/dist/
+unf_app/web-build/
+unf_app/expo-env.d.ts
+
+# Native
+unf_app/.kotlin/
+unf_app/*.orig.*
+unf_app/*.jks
+unf_app/*.p8
+unf_app/*.p12
+unf_app/*.key
+unf_app/*.mobileprovision
+
+# Metro
+unf_app/.metro-health-check*
+
+# Debug logs
+unf_app/npm-debug.*
+unf_app/yarn-debug.*
+unf_app/yarn-error.*
+
+# Generated native folders
+unf_app/ios/
+unf_app/android/
+
+
+# Environment
+
+**/.env
+**/.env.local
+**/.env*.local
+
+# OS / Editor
+
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
